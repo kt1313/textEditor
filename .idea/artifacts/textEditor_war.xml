@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="textEditor:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>textEditor</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="textEditor-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="textEditor:war exploded" />
+    </root>
+  </artifact>
+</component>
